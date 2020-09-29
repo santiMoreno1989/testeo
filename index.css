@@ -1,0 +1,33 @@
+header
+{
+    font-size: x-large;
+    color : red;
+    background-color: yellow;
+    padding: 20px;
+    text-align: center;
+    border-style: solid;
+    border-bottom-width: 10px;
+    border-bottom-color: lime;
+    border-width: 20px;
+
+}
+body
+{
+    background-color: yellowgreen;
+    color:black;
+    
+}
+.tablita
+{
+    border-style: solid;
+    border-color: blue;
+}
+.columnas
+{
+    font-size: 25px;
+}
+
+
+
+
+    
