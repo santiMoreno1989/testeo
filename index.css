@@ -39,7 +39,24 @@ body
     padding: 20px;
     width: 200px;
 }
-
+.web
+{
+    color: red;
+    float: left;
+    list-style: none;
+    padding: 10px;
+    font-size: 23px;
+    font-weight: bold;
+    font-style: italic;
+}
+nav
+{
+    float: initial;
+}
+a
+{
+    text-decoration: none;
+}
 
 
     
