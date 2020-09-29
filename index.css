@@ -2,19 +2,19 @@ header
 {
     font-size: x-large;
     color : red;
-    background-color: yellow;
+    background-color: black;
     padding: 20px;
     text-align: center;
     border-style: solid;
     border-bottom-width: 10px;
-    border-bottom-color: lime;
+    border-bottom-color:red;
     border-width: 20px;
 
 }
 body
 {
-    background-color: yellowgreen;
-    color:black;
+    background-color:black;
+    color:white;
     
 }
 .tablita
@@ -26,7 +26,19 @@ body
 {
     font-size: 25px;
 }
-
+.container
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container > div
+{
+    background-color: goldenrod;
+    font-size: 20px;
+    margin: 20px;
+    padding: 20px;
+    width: 200px;
+}
 
 
 
