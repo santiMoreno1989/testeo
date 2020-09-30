@@ -56,6 +56,12 @@ nav
 a
 {
     text-decoration: none;
+    font-family: fantasy;
+    color: white;
+}
+li:hover a
+{
+    color: red;
 }
 
 
