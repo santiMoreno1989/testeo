@@ -2,7 +2,7 @@ header
 {
     font-size: x-large;
     color : red;
-    background-color: black;
+    background-color:black;
     padding: 20px;
     text-align: center;
     border-style: solid;
@@ -13,8 +13,8 @@ header
 }
 body
 {
-    background-color:black;
-    color:white;
+    background-color: gainsboro;
+    color: black;
     
 }
 .tablita
@@ -40,6 +40,35 @@ body
     width: 200px;
 }
 
-
-
-    
+.footer
+{
+    background-color: tomato;
+    color: blue;
+    height: 425px;
+    position: relative;
+}
+.footer .footer-content
+{
+    border: 1px solid red;
+    height: 350px;
+    display: flex;
+}
+.footer .footer-content .footer-section
+{
+    flex: 1;
+    border: 5px solid yellow;
+    padding: 21px;
+}
+.footer .footer-bottom
+{
+    color:white;
+    background-color:green;
+    height: 50px;
+    text-align: center;
+    font-size: 25px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding-top: 20px;
+    width: 100%;
+}    
