@@ -13,7 +13,7 @@ header
 }
 body
 {
-    background-color: gainsboro;
+    background-color: #fff0f0;
     color: black;
     
 }
@@ -42,9 +42,9 @@ body
 
 .footer
 {
-    background-color: tomato;
-    color: blue;
-    height: 425px;
+    background-color: #4c4c4c;
+    color: white;
+    height: 300px;
     position: relative;
 }
 .footer .footer-content
@@ -56,17 +56,82 @@ body
 .footer .footer-content .footer-section
 {
     flex: 1;
-    border: 5px solid yellow;
-    padding: 21px;
+    border: 1px solid black;
+    padding: 10px;
+    
 }
+.footer .footer-content h1,
+.footer .footer-content h2
+{
+    color: white;
+}
+.footer .footer-content .about h1 span
+{
+    color: #32e0c4;
+}
+.footer .footer-content .about .contacto span
+{
+    display: block;
+    font-size: 1.1em;
+    margin-bottom: 8px;
+}
+.footer .footer-content .about .sociales a
+{
+    border: 1px solid   grey;
+    width: 45px;
+    height: 41px;
+    padding-top: 5px;
+    margin-right: 5px;
+    text-align: center;
+    display: inline-block;
+    font-size: 1.3em;
+    border-radius: 5px;
+    transition: all .3s;
+
+}
+.footer .footer-content .about .sociales a:hover
+{
+    border: 1px solid white;
+    color: white;
+    transition: all .3s;
+}
+.footer .footer-content .links ul a
+{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    color:wheat;
+    transition: all .3s;
+
+}
+.footer .footer-content .links ul a:hover
+{
+    color: white;
+    margin-left: 15px;
+    transition: all .3s;
+}
+.footer .footer-content .contact-form .contact-input
+{
+    background-color: #e7e7de;
+    color: cornsilk;
+    margin-bottom: 10px;
+    line-height: 1.5rem;
+    padding: .7rem 1.2rem;
+    border: 1px solid black;
+}
+.footer .footer-content .contact-form .contact-input:focus
+{
+    background-color: black;
+}
+
 .footer .footer-bottom
 {
-    color:white;
-    background-color:green;
+    color: white;
+    background-color:black;
     height: 50px;
     text-align: center;
-    font-size: 25px;
-    position: absolute;
+    font-size: 30px;
+    position: relative;
     bottom: 0px;
     left: 0px;
     padding-top: 20px;
